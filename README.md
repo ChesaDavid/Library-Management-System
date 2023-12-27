@@ -20,7 +20,6 @@ The Library Management System is a C++ project designed to facilitate the manage
 - Display the list of available books
 - Search for a book by title or author
 - Check in and check out books
-- Manage library members (optional)
 
 ## Getting Started
 

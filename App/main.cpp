@@ -1,7 +1,13 @@
-#include <iostream>
+#include "AppWindow.h"
 
-using namespace std;
+
 
 int main(){
-    cout<<"Hello world";
+    AppWindow app;
+    if(app.init()){
+        while(app.isRun()){
+            app.broadcast();
+        }
+    }
+    return 0;
 }

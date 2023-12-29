@@ -234,7 +234,7 @@ void returnABook(){
         }
 }
 int main()
-{   
+{   cout<<endl;
     cout<<"Desclaimer!"<<endl;
     cout<<"The name of the books and the authors will be writes as fallow"<<endl;
     cout<<"exemple of a book name: (not)Harry Potter , (but)HarryPotter"<<endl;

@@ -24,7 +24,7 @@ Window::Window()
     wndClass.lpfnWndProc = WindowProc;
 
     RegisterClass(&wndClass);
-
+    
     DWORD style = WS_CAPTION | WS_MINIMIZE | WS_SYSMENU;
 
     int width = 640;
@@ -56,12 +56,6 @@ Window::Window()
     ShowWindow(m_hWnd, SW_SHOW);
 }
 
-Window::~Window()
-{
-    
-    UnregisterClass("Library Management System Class", m_hInstance);
-}
-
 bool Window::ProcessMasseges()
 {
     MSG msg ={};
@@ -74,4 +68,10 @@ bool Window::ProcessMasseges()
         DispatchMessage(&msg);
     }
     return true;
+}
+
+Window::~Window()
+{
+    const wchar_t* CLASS_NAME = L"Library Management System Class";
+    UnregisterClass("Library Management System Class", m_hInstance);
 }

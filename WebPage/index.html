@@ -8,44 +8,87 @@
     <title>LibraryManegementSystem</title>
 </head>
 <body>
-    <!-- Forehead -->
+    <!-- Web page -->
     <div class="AppWrap">
-        <div class="Greating">
-            <h1 class="HelloWorld">Hello World!</h1>
-            <h2 class="LibraryManegementSystem">Libray Management System</h2>
+        <div class="AppWrap2">
+                <div>
+                    <div class="Greating">
+                        <h1 class="HelloWorld">Hello World!</h1>
+                        <h2 class="LibraryManegementSystem">Libray Management System</h2>
+                    </div>
+                    <div class="ControlPanel">
+                        <button class="button-aspect1" id="AddBook" onclick="AddBookButton()">Add Book</button>
+                        <br>
+                        <button class="button-aspect2" id="SearchBook">Search Book</button>
+                        <br>
+                        <button class="button-aspect3" id="RentBook">Rent a Book</button>
+                        <br>
+                        <button class="button-aspect4" id="ShowAllBooks">Show All Books</button>
+                        <br>
+                        <button class="button-aspect5" id="DeleteABook">Delete A Book</button>
+                        <br>
+                        <button class="button-aspect6" id="ReturnBook">Return a Book</button>
+                        <br>
+                    </div>
+                    <div class="ContactList">
+                        <h3 class="ContactsTilte">Contacts</h3>
+                        <div class="ContactWrap">
+                            <div>
+                                <img src="Resources/Screenshot 2023-12-18 182919.png" class="ProfilePhoto">
+                            </div>
+                            <div>
+                                <ul>
+                                    <li><a href="https://www.linkedin.com/in/david-chesa-824042296/"><span class="LinkedinLink">Linkedin</span></a></li>
+                                    <li><a href="https://www.instagram.com/david_chesa/"><span class="InstagramLink">Instagram</span></a></li>
+                                    <li><a href="https://github.com/ChesaDavid"><span class="GitHubLink">GitHub</span></a></li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="ControlPanel2">
+                    <h2 class="FirstButton">Add Book</h2>
+                    <form id="FirstButton" >
+                        <label for="BookName" id="FirstButton-BookName">Book Name:</label>
+                      <input type="text" id="BookName" name="BookName"><br><br>
+                        <label for="AuthorName" id="">Aurhor Name:</label>
+                        <input type="text" id="AuthorName" name="AuthorName"><br><br>
+                        <button >Submit</button>
+                    </form>
+                </div>
         </div>
-        <div class="ControlPanel">
-            <button class="button-aspect1" id="AddBook">Add Book</button>
-            <button class="button-aspect2" id="SearchBook">Search Book</button>
-            <button class="button-aspect3" id="RentBook">Rent a Book</button>
-            <button class="button-aspect4" id="ShowAllBooks">Show All Books</button>
-            <button class="button-aspect5" id="DeleteABook">Delete A Book</button>
-            <button class="button-aspect6" id="ReturnBook">Return a Book</button>
-            <button class="button-aspect7" id="Quit">Quit</button>
-        </div>
-        <div class="ContactList">
-            <img src="Resources/Screenshot 2023-12-18 182919.png" class="ProfilePhoto">
-            <a href="https://www.linkedin.com/in/david-chesa-824042296/"><span class="LinkedinLink">Linkedin</span></a>
-            <a href="https://www.instagram.com/david_chesa/"><span class="InstagramLink">Instagram</span></a>
-            <a href="https://github.com/ChesaDavid"><span class="GitHubLink">GitHub</span></a>
-        </div>
+        <!-- LinkToOtherProjects -->
+         <div class="line">.</div>
+        <aside class="OtherProjects">
+            <img src="Resources/Screenshot 2023-12-29 122807.png" alt="GitHubLogo" class="GitHubLogo">
+            <div class="FirstProject">
+                <a href="https://github.com/ChesaDavid/Multi-Language-Personal-Assistant"><h3 class="FirstProject-Title">Multi-Language-Personal-Assistant</h3></a>
+                <p class="FirstProject-description">A project started in high school . 
+                    This intuitive assistant on your webpage effortlessly understands and responds 
+                    in multiple languages, ensuring a personalized and
+                    efficient experience for all your requirements.</p>
+            </div>
+            <div class="SecondProject">
+                <a href="https://github.com/ChesaDavid/A_Private_lessons_company_site"><h3 class="SecondProject-Title">A_Private_lessons_company_site</h3></a>
+                <p class="SecondProject-description">Embark on a personalized learning journey with my Private Lessons Website. As the sole tutor, I offer exclusive one-on-one sessions, tailoring lessons to 
+                    your unique needs. Elevate your skills and knowledge with
+                    a dedicated platform designed for your individualized educational experience.</p>
+            </div>
+            <div class="ThirdProject">
+                <a href="https://github.com/ChesaDavid/CalculatorApp"><h3 class="ThirdProject-Title">CalculatorApp</h3></a>
+                <p class="ThirdProject-description">Streamlined for efficiency, it offers a user-friendly interface for 
+                    swift calculations on the go. Whether solving complex equations or handling everyday
+                    math, this app is your reliable companion, delivering accuracy and convenience at your fingertips.</p>
+            </div>
+            <div class="ForthProject">
+                <a href="https://github.com/ChesaDavid/JoyForTheCommunity"><h3 class="ForthProject-Title">JoyForTheCommunity</h3></a>
+                <p class="ForthProject-description">reate a web-based platform that connects donors with community organizations and individuals in need. The platform should
+                    allow people to donate money, goods, or services to various causes, 
+                    such as supporting local schools, aiding disaster-stricken areas, or helping individuals facing financial hardships.</p>
+            </div>
+        </aside>
     </div>
-    <!-- LinkToOtherProjects -->
-    <aside class="OtherProjects">
-        <img src="Resources/Screenshot 2023-12-29 122807.png" alt="GitHubLogo" class="GitHubLogo">
-        <div class="FirstProject">
-            <a href="https://github.com/ChesaDavid/Multi-Language-Personal-Assistant"><h3 class="FirstProject-Title">Multi-Language-Personal-Assistant</h3></a>
-            <p class="FirstProject-description">A project started in high school . 
-                This intuitive assistant on your webpage effortlessly understands and responds 
-                in multiple languages, ensuring a personalized and
-                 efficient experience for all your requirements.</p>
-        </div>
-        <div class="SecondProject">
-            <a href="https://github.com/ChesaDavid/A_Private_lessons_company_site"><h3 class="SecondProject-Title">A_Private_lessons_company_site</h3></a>
-            <p>Embark on a personalized learning journey with my Private Lessons Website. As the sole tutor, I offer exclusive one-on-one sessions, tailoring lessons to 
-                your unique needs. Elevate your skills and knowledge with
-                 a dedicated platform designed for your individualized educational experience.</p>
-        </div>
-    </aside>
 </body>
 </html>

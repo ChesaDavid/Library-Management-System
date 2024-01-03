@@ -1,0 +1,152 @@
+
+
+/* Web title */
+.Greating{
+padding: 50px;
+padding-left: 190px;
+padding-right: 600px;
+}
+.HelloWorld{
+    color: #000;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+.LibraryMangementSystem{
+    color: gray;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.AppWrap{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: -200px
+    
+}
+/* SideBar */
+.OtherProjects{
+    width: 273px;
+    margin-left: 0px;
+}
+.OtherProjectsTitle{
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+.GitHubLogo{
+    width: 273px;
+    height: 220px;
+    margin-right: -10px;
+}
+.Project-Title{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+.Project-description{
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* Contacts */
+.ContactList{
+padding-left: 10px;
+
+}
+.contactsTitle{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ContactWrap{
+    display: flex;
+}
+.ProfilePhoto{
+    width: 188px;
+    height: 144px;
+    margin-left: 20px;
+}
+.LinkedinLink{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.GitHubLink{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.InstagramLink{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.line{
+    width: 12px;
+    height: 920.002px;
+    background: #000;
+    margin-left: 11px;
+}
+/* Main body */
+.ControlPanel{
+    padding-left: 130px;
+    
+}
+.button-aspect1{
+    padding-top: 40px;
+    width: 140px;
+    height: 50px;
+}
+.button-aspect2{
+    padding-top: 40px;
+    width: 160px;
+    height: 50px;
+}
+.button-aspect3{
+    padding-top: 40px;
+    width: 155px;
+    height: 50px;
+}
+.button-aspect4{
+    padding-top: 40px;
+    width: 140px;
+    height: 50px;
+}
+.button-aspect5{
+    padding-top: 40px;
+    width: 190px;
+    height: 50px;
+}
+.button-aspect6{
+    padding-top: 40px;
+    width: 180px;
+    height: 50px;
+}
